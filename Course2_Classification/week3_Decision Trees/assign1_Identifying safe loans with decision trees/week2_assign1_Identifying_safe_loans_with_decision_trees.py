@@ -129,7 +129,7 @@ def encode_target(df, target_column_list):
     return (df, df_mod, targets)
 
 # for feat in categorical_features:
-df, df_mod, targets = encode_target(train_data, categorical_features)
+df, df_mod, targets = encode_target(loans, categorical_features)
 train_data = df
 train_data_coded = df_mod
 
